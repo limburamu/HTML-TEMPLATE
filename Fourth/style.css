@@ -1,0 +1,82 @@
+.body {
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.nav ul li a {
+    color: aliceblue;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    gap: 40px;
+}
+.left {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+.left h1 {
+    color: slateblue;
+}
+
+.left p {
+    color: aqua;
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+}
+
+.footer {
+    background-color: aliceblue;
+    height: 25%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.content h1 {
+    color: salmon;
+}

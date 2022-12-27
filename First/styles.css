@@ -1,0 +1,57 @@
+.Header {
+    background-color: greenyellow;
+    width: 100%;
+    height: 20%;
+}
+
+.Tag {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.Tag li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.btn {
+    background-color: blue;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    margin-left: 50%;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+    gap: 40px;
+    
+}
+
+.box {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.box2 {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+.box3 {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 10px;
+    text-align: center;
+}
